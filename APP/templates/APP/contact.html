@@ -1,0 +1,28 @@
+{% extends 'APP/base.html' %}
+{% block content %}
+<h1> Contact / Suggest a Question</h1>
+
+<form>
+    <input type="text" placeholder="Name" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Your question or suggestion..." required></textarea>
+    <button type="submit">Submit</button>
+</form>
+
+<h2>📚 Recommended Resources</h2>
+<ul>
+    <li><a href="https://docs.python.org/">Python Documentation</a></li>
+    <li><a href="https://www.sqltutorial.org/">SQL Tutorial</a></li>
+    <li><a href="https://spark.apache.org/docs/latest/">Apache Spark Docs</a></li>
+    <li><a href="https://airflow.apache.org/docs/">Airflow Docs</a></li>
+    <li><a href="https://cloud.google.com/learn">Google Cloud Learning</a></li>
+</ul>
+
+<h2>💡 Tips for Beginners</h2>
+<ul>
+    <li>Start with Python basics and SQL queries.</li>
+    <li>Practice building small ETL pipelines.</li>
+    <li>Use free cloud tiers to deploy experiments.</li>
+    <li>Follow structured courses and tutorials online.</li>
+</ul>
+{% endblock %}
