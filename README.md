@@ -99,4 +99,3 @@ Submit a pull request
 
 This project is licensed under the MIT License – feel free to use and adapt it.
 
-👉 This README is clean, professional, and GitHub-ready.
